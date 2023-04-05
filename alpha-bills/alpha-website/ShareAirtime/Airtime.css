@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    padding: 20px 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    border-bottom: #0235EA 5px solid;
+}
+label{
+    display: block;
+}
+.inp{
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 60px 0;
+}
+.sel{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.sel select{
+    width: 100%;
+    padding: 7px 300px 7px 0;
+    border-radius: 10px;
+    border: 3px solid #F6F8FE;
+
+}
+select option{
+    width: 100%;
+}
+.sel option:hover{
+    background-color: red;
+}
+input{
+    width: 100%;
+    padding: 5px 0;
+    border-radius: 10px;
+    border: none;
+    border: 3px solid #F6F8FE;
+}
+button{
+    background-color: #0235EA;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 150px;
+    font-size: larger;
+    cursor: pointer;
+   
+}
+.bal p{
+    display: flex;
+    padding-left: 250px;
+    padding-top: 20px;
+}
+/* .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+.two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.inp option{
+    width:100%;
+}
+
+
+@media screen and (max-width:950px) {
+    input{
+        width: 100%;
+    }
+    .bal p{
+        justify-content: flex-end;
+    }
+    
+}

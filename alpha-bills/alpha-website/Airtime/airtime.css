@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+}
+.payment{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 15px;
+}
+.payment h2{
+    color: #0235EA;
+}
+button{
+    background-color: #0235EA;
+    color: white;
+    border: none;
+    padding: 10px 120px;
+    border-radius: 10px;
+    font-size: larger;
+    cursor: pointer;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
